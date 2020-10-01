@@ -6,7 +6,7 @@ a simple project to demonstrates how to dockerize a Node Express Application
 
 1. clone this project to your working directory
 2. move into your working directory
-3. run "docker build -t docker-express ." to build a docker image
+3. run "docker build -t docker-express ." to build a docker image named "docker-express"
 4. run "docker run -d -p 3000:3000 --name docker-express docker-express" 
 
 if everything is ok, a simple Node Express App will run on port: 3000
